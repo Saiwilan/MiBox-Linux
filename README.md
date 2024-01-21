@@ -52,7 +52,7 @@ Armbian Linux Distro : [Download (Google Drive)](https://drive.google.com/file/d
 
 Manjaro Linux Distro : [Download (Google drive)](https://drive.google.com/file/d/1iF3KZBWze9VWiQ-4P6zYMTX9hA7TsM1h/view?usp=sharing)
 
-pick any one.
+pick anyone.
 
 Note! : original links of the distros are down and outdated, these links are from i12bretro comment if you got the updated links
 
@@ -69,6 +69,21 @@ Same for armbian and manjaro. I’ll go with armbian for now
 7. open the pendrive folder
 8. search and open **uEnv.ini** with notepad
 9. edit the FDT line to point to a working .dtb file i.e. **meson-gxl-s905x-p212.dtb**
+
+for armbian :
+
+```
+
+# aml s9xxx
+#FDT=/dtb/amlogic/meson-g12a-x96-max-no-cvbs.dtb
+#FDT=/dtb/amlogic/meson-g12b-ugoos-am6-no-cvbs.dtb
+#FDT=/dtb/amlogic/meson-g12b-odroid-n2.dtb
+FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
+APPEND=root=LABEL=ROOTFS rootflags=data=writeback rw console=ttyAML0,115200n8 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
+
+```
+
+for manjaro :
 
 ```
 # For AML
@@ -110,3 +125,36 @@ Note : This will not install armbian/manjaro in your device eMMC inernal storage
 take a toothpick and insert it into headphone jack and press and hold the button inside it to boot from pendrive
 
 for those boxes who dont have a button inside headphone jack you may have a button inside the box named reset button or a tiny hole to pick or may have different grounding pins on mb (google it).
+
+# What works and what dosen't
+
+### Major Not Working :
+
+- Bluetooth
+- Audio (works with TV’s and monitors with inbuilt speakers)
+- Headphone jack
+- system freezes after an hour or so even when on idle (may be in only my case but for info )
+- internal storage not accessible in pendrive boot
+- manjaro is slow but has some useful apps compared to armbian
+- Dont even dream of gaming on it.
+
+### Major working :
+
+- WIFI
+- Youtube/streaming works
+- and pretty much
+
+### Usability :
+
+As for armbian its unexpectedly fast considering my 10 year old pendrive and lightweight as it has xfce de. As for apps you have a least amount of apps and does not even come with Libre office but its smooth anyways.
+
+As for manjaro its a little bit slow but usable and comes with Libre office pre installed.
+
+### Use cases :
+
+- basic typing, word processing and data entry.
+- surfing internet
+- learning linux
+- a cheap server
+- personal portable cpu kinda
+- small media box
