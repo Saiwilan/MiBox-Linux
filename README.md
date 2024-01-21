@@ -83,3 +83,12 @@ if you have other than 1 and 2GB ram search for dtb accordingly
 
 10. Save and close the file
 11. safely remove Pendrive.
+
+# **Booting to Linux for the First Time :**
+
+Note : This will not install armbian/manjaro in your device eMMC inernal storage and will only be installed on your pendrive.
+
+**[Grounding Method]**
+
+1. Open up the Mi Box 
+2. remove the metal plate covering the eMMC
