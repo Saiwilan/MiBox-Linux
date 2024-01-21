@@ -29,7 +29,7 @@ Storage: 8 GB eMMC
 
 Operating System: Android 8.1 / 9 (May Varry)
 
-# P**re-requisite**:
+# **Pre-requisite**:
 
 - A Mi box (ofcourse!)
 - A monitor (bruh!)
@@ -42,6 +42,7 @@ Operating System: Android 8.1 / 9 (May Varry)
 - USB Type A to Type A  (usb male to usb male) cable (optional)
 - A computer (Windows/Linux/mac)
 - A Linux distro image file (I’m gonna go with armbian and manjaro for this guide)
+- Basic linux knowledge and patience :) 
 
 ## [Links] Downloads :
 
@@ -90,5 +91,22 @@ Note : This will not install armbian/manjaro in your device eMMC inernal storage
 
 **[Grounding Method]**
 
-1. Open up the Mi Box 
+1. Open up the Mi Box (DO NOT POWER IT YET !!)
 2. remove the metal plate covering the eMMC
+3. connect usb hub to it
+4. insert pendrive
+5. insert keyboard and mouse
+6. plug in hdmi monitor or TV
+7. take a screw driver and and join the metal rim and the pin shown in image (you can use a wire too)       **{IMAGE}**
+8. power the box on (plug in) while keeping them on
+9. you will see the mi box logo for a second and next linux commands flash on your screen (you can lift that screwdriver and let it go)
+10. Go through the setup process using keyboard (it dosen’t have a GUI ).
+11. Done!! You have your Linux up and running.
+
+{IMAGE}
+
+[boxes other than mi box]
+
+take a toothpick and insert it into headphone jack and press and hold the button inside it to boot from pendrive
+
+for those boxes who dont have a button inside headphone jack you may have a button inside the box named reset button or a tiny hole to pick or may have different grounding pins on mb (google it).
