@@ -87,7 +87,8 @@ Note : if you don't have .ini file you must have .config file in config folder e
 
 Note : This will not install Armbian/Manjaro in your device eMMC internal storage and will only be installed on your pendrive.
 
-![images.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/829a5a67-7c3f-4b9b-8eff-28f48da3e60c/11fd9ba0-8357-412e-aaef-d2962798ed11/images.jpg)
+![images (1)](https://github.com/user-attachments/assets/51e1e1ca-a940-4133-abb0-db647adeb029)
+
 
 1. Open up the Mi Box (DO NOT POWER IT YET !!)
 2. Remove the metal plate covering the eMMC
@@ -97,7 +98,8 @@ Note : This will not install Armbian/Manjaro in your device eMMC internal storag
 6. Plug in HDMI monitor or TV
 7. Take a screw driver and and join the metal rim and the pin shown in image (you can use a wire too)    
     
-    ![18490850.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/829a5a67-7c3f-4b9b-8eff-28f48da3e60c/797996b3-4fe1-4c8f-934a-27078e07e8d8/18490850.jpg)
+![18490850 (1)](https://github.com/user-attachments/assets/f107b9e3-d4cd-41fc-b764-01310094fab2)
+
     
 8. Power the box on (plug in) while keeping them on
 9. You will see the MI logo for a second and next Linux commands flash on your screen (you can lift that screwdriver and let it go)
